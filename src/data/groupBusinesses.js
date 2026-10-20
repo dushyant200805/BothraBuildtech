@@ -1,0 +1,32 @@
+export const groupBusinesses = [
+  {
+    slug: 'bothra-international',
+    name: 'Bothra International',
+    category: 'International trade',
+    location: 'Global Trade',
+    status: 'Operational',
+    description: 'Specializing in global procurement, mineral trading, and diversified cross-border supply chain operations.',
+    website: 'https://www.bothrainternational.com/',
+    heroImage: '/office-glass-facade-blue.jpg',
+  },
+  {
+    slug: 'bothra-tea-company',
+    name: 'Bothra Tea Company',
+    category: 'Agro & Tea',
+    location: 'Assam & Bengal',
+    status: 'Estate Operations',
+    description: 'Cultivating premium orthodox and CTC tea leaves across lush highland plantations with sustainable processing.',
+    website: null,
+    heroImage: '/tea-plantation-fields.jpg',
+  },
+  {
+    slug: 'bodhi-international-school',
+    name: 'Bodhi International School',
+    category: 'Education',
+    location: 'Jodhpur',
+    status: 'Academic Campus',
+    description: 'An accredited international day-cum-boarding campus fostering holistic academic, sporting and cultural excellence.',
+    website: 'https://www.bodhijodhpur.com/',
+    heroImage: '/school-campus-low-rise.jpg',
+  },
+]

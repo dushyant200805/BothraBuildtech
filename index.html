@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script>
+      (() => {
+        const stored = localStorage.getItem('bothra-theme');
+        const theme = stored === 'light' || stored === 'dark' ? stored : 'light';
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+    <meta name="description" content="Bothra Buildtech: building spaces and shaping tomorrow." />
+    <meta property="og:title" content="Bothra Buildtech" />
+    <meta property="og:description" content="A construction and development brand." />
+    <meta property="og:type" content="website" />
+    <title>Bothra Buildtech | Building spaces. Shaping tomorrow.</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

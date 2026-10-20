@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Replace https://example.com with the confirmed production domain -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://example.com/</loc><priority>1.0</priority></url>
+  <url><loc>https://example.com/about-us</loc><priority>0.9</priority></url>
+  <url><loc>https://example.com/about-us/founders</loc><priority>0.7</priority></url>
+  <url><loc>https://example.com/about-us/our-group</loc><priority>0.8</priority></url>
+  <url><loc>https://example.com/about-us/our-group/bothra-international</loc><priority>0.6</priority></url>
+  <url><loc>https://example.com/about-us/our-group/bothra-tea-company</loc><priority>0.6</priority></url>
+  <url><loc>https://example.com/about-us/our-group/bodhi-international-school</loc><priority>0.6</priority></url>
+  <url><loc>https://example.com/projects</loc><priority>0.9</priority></url>
+  <url><loc>https://example.com/projects/completed</loc><priority>0.7</priority></url>
+  <url><loc>https://example.com/projects/ongoing</loc><priority>0.7</priority></url>
+  <url><loc>https://example.com/projects/upcoming</loc><priority>0.7</priority></url>
+  <url><loc>https://example.com/other-businesses</loc><priority>0.7</priority></url>
+  <url><loc>https://example.com/contact</loc><priority>0.8</priority></url>
+  <url><loc>https://example.com/privacy-policy</loc><priority>0.3</priority></url>
+  <url><loc>https://example.com/terms-of-use</loc><priority>0.3</priority></url>
+</urlset>

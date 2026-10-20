@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+:root {
+  font-family: 'DM Sans', sans-serif;
+  --font-heading: 'Manrope', sans-serif;
+  --primary-color: #2196f3;
+  --primary-hover: #0d74cf;
+  --blue-deep: #0d47a1;
+  --bg-primary: #ffffff;
+  --bg-secondary: #f5faff;
+  --bg-highlight: #e3f2fd;
+  --text-primary: #0d2540;
+  --text-muted: #52657a;
+  --border-color: #dbe6ef;
+  --section-spacing: clamp(5rem, 10vw, 9rem);
+  --shadow-card: 0 24px 70px rgb(15 41 65 / 10%);
+  --header-bg: rgb(255 255 255 / 74%);
+  --overlay-bg: #ffffff;
+  --page-transition-panel: #ffffff;
+  --page-transition-border: #dbe6ef;
+  --ease-out: cubic-bezier(.2, .75, .25, 1);
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --bg-primary: #071421;
+  --bg-secondary: #102338;
+  --bg-highlight: #152b42;
+  --text-primary: #f4f9ff;
+  --text-muted: #b8cce0;
+  --border-color: rgb(184 204 224 / 19%);
+  --header-bg: rgb(7 20 33 / 76%);
+  --overlay-bg: #071421;
+  --page-transition-panel: #071421;
+  --page-transition-border: rgb(184 204 224 / 19%);
+  --shadow-card: 0 24px 70px rgb(0 0 0 / 26%);
+}

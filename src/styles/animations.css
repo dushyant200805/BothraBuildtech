@@ -1,0 +1,57 @@
+@keyframes loading-sheen { to { background-position: -200% 0; } }
+@keyframes float-line { 0%, 100% { transform: translateY(0); opacity: .45; } 50% { transform: translateY(8px); opacity: 1; } }
+@keyframes reveal-up { from { opacity: 0; transform: translateY(22px); } to { opacity: 1; transform: translateY(0); } }
+.reveal-ready { opacity: 0; transform: translateY(24px); }
+.reveal-in { opacity: 1; transform: translateY(0); transition: opacity .75s ease, transform .75s var(--ease-out); }
+
+@keyframes typewriter-caret-blink {
+  50% { opacity: 0; }
+}
+
+.home-hero__typed-line { display: block; min-height: 1em; }
+.typewriter-cursor {
+  display: inline-block;
+  width: 2px;
+  height: .78em;
+  margin-left: .08em;
+  background: #90caf9;
+  vertical-align: -.02em;
+  animation: typewriter-caret-blink .8s steps(1, end) infinite;
+}
+
+.page-transition {
+  position: fixed;
+  z-index: 190;
+  inset: 0;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  overflow: hidden;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.page-transition__panel {
+  position: relative;
+  display: block;
+  height: 100%;
+  border-right: 1px solid var(--page-transition-border);
+  background: var(--page-transition-panel);
+  will-change: transform;
+}
+
+.typewriter-heading {
+  display: grid;
+  white-space: pre-line;
+}
+
+.typewriter-heading__reserve,
+.typewriter-heading__output {
+  grid-area: 1 / 1;
+}
+
+.typewriter-heading__reserve { visibility: hidden; }
+
+@media (prefers-reduced-motion: reduce) {
+  .typewriter-cursor { animation: none; }
+  .page-transition { display: none; }
+}

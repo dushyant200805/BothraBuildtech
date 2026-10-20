@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Update with the production domain once confirmed
+# Sitemap: https://example.com/sitemap.xml
